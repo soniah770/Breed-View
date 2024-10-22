@@ -1,0 +1,9 @@
+model Breed {
+  id            Int     @id @default(autoincrement())
+  name          String
+  weight        String
+  temperament   String
+  origin        String?
+  life_span     String
+  imageUrl      String?
+}
